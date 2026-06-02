@@ -1,0 +1,87 @@
+/* Reset básico para limpar as margens do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Centraliza o card na tela */
+body {
+    background-color: #f4f7f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilização do Card */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    max-width: 380px;
+    width: 100%;
+    border-top: 6px solid #2e7d32; /* Detalhe em verde agro */
+}
+
+.tag {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #1b5e20;
+    margin: 12px 0 8px 0;
+}
+
+p {
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+h3 {
+    color: #333333;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style-position: inside;
+    color: #555555;
+    margin-bottom: 16px;
+}
+
+li {
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+}
+
+/* Botão Interativo */
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+/* Classe utilitária para esconder elementos via JavaScript */
+.hidden {
+    display: none;
+}
